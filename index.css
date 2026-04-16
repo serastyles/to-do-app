@@ -1,0 +1,81 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(212, 223, 220);
+}
+.text {
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.addBtn {
+    background-color: #3586d6;
+    color: rgb(232, 231, 242);
+    border: none;
+    border-radius: 8px;
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(232, 231, 242);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    border-bottom: 1px;
+
+}
+
+li span {
+    flex-grow: 1; /* Pushes the delete button to the right automatically */
+}
+
+li:hover {
+    background-color: rgb(220, 220, 220); 
+}
+button:nth-of-type(2) {
+    background-color: #d63c3c;
+    color: rgb(241, 240, 245);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+button:nth-of-type(1) {
+    background-color: #05672b;
+     color: rgb(241, 240, 245);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+#emptyMsg {
+    color: #888;
+    font-style: italic;
+    margin-top: 20px;
+}
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
