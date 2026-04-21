@@ -28,7 +28,7 @@ ul {
     margin-top: 20px;
     border: 1.5px solid #ccc;
     border-radius: 8px;
-    background-color: rgb(232, 231, 242);
+    background-color: rgba(124, 219, 219, 0.753);
 }
 
 li {
@@ -45,18 +45,18 @@ li span {
 }
 
 li:hover {
-    background-color: rgb(220, 220, 220); 
+    background-color: #dbc8d8f7 
 }
 button:nth-of-type(2) {
-    background-color: #d63c3c;
-    color: rgb(241, 240, 245);
+    background-color: #e56c80f7 ;
+    color: black;
     border: none;
     border-radius: 8px;
     padding: 10px 15px;
 }
 button:nth-of-type(1) {
-    background-color: #05672b;
-     color: rgb(241, 240, 245);
+    background-color:#f2a90bc4;
+    color: rgb(4, 23, 136);
     border: none;
     border-radius: 8px;
     padding: 10px 15px;
