@@ -38,7 +38,14 @@ function addTask(taskText = null, isCompleted = false) {
   }
 
   checkbox.addEventListener("change", function () {
-    span.style.textDecoration = checkbox.checked ? "line-through" : "none";
+    if (checkbox.checked) {
+      span.style.textDecoration = "line-through"; // If the checkbox is checked, strike through the text
+      li.style.backgroundColor = "#b5dedf"; // Change background color to indicate completion
+    } else {
+      span.style.textDecoration = "none"; // If the checkbox is unchecked, remove the strike-through
+      li.style.backgroundColor = ""; // Reset background color
+    }
+    
     saveTasks(); // Save the updated task list to localStorage whenever a task is marked as completed or uncompleted
   });
   li.prepend(checkbox); // Add the checkbox at the beginning of the list item

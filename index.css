@@ -28,7 +28,7 @@ ul {
     margin-top: 20px;
     border: 1.5px solid #ccc;
     border-radius: 8px;
-    background-color: rgba(124, 219, 219, 0.753);
+    background-color: rgba(245, 247, 247, 0.753);
 }
 
 li {
@@ -38,6 +38,13 @@ li {
     padding: 10px;
     border-bottom: 1px;
 
+}
+li:nth-child(odd) {
+    background-color: #ebdae6;
+}
+
+li:nth-child(even) {
+    background-color: #e8f5e9;
 }
 
 li span {
