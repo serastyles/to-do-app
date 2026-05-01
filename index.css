@@ -24,11 +24,12 @@ button {
 }
 ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     border: 1.5px solid #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: rgba(245, 247, 247, 0.753);
+    width: 500px;
 }
 
 li {
@@ -37,14 +38,22 @@ li {
     gap: 8px;
     padding: 10px;
     border-bottom: 1px;
+    max-width: 700px;
+    margin: 10px auto;
 
 }
+.container {
+  max-width: 800px;   /* increase this */
+  margin: 0 auto;     /* keeps it centered */
+  padding: 20px;
+}
+
 li:nth-child(odd) {
-    background-color: #ebdae6;
+    background-color: #f0e2ec;
 }
 
 li:nth-child(even) {
-    background-color: #e8f5e9;
+    background-color: #d9f0db;
 }
 
 li span {
@@ -52,7 +61,7 @@ li span {
 }
 
 li:hover {
-    background-color: #dbc8d8f7 
+    background-color: #c8d8dbf7 
 }
 button:nth-of-type(2) {
     background-color: #e56c80f7 ;
@@ -85,4 +94,13 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+#taskInput {
+  width: 80%;
+  height: 40px;       /* increase this */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  resize: vertical;   /* allows user to drag to resize */
 }
